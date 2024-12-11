@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3877f440-4938-49e7-a5ab-c27e707c5826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PLATAFORMAEVENTS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defprojet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defprojet2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/p.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/pBBBBb@gmail.com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/pCCCCc@gmail.com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menuprojet/pDDDDd@gmail.com.png" afterDir="false" />
-    </list>
+    <list default="true" id="3877f440-4938-49e7-a5ab-c27e707c5826" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
