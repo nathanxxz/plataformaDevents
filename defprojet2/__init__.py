@@ -8,16 +8,12 @@ def TabelaPart(events):
         participantes = (len(evento) - 5)
         qtdPart.append(participantes)
 
-    if(len(namesEventts) == 0):
-        print('NENHUM EVENTO ENCONTRADO')
-        return
-
     plt.bar(namesEventts, qtdPart, color='red')
     plt.xlabel('EVENTOS')
     plt.ylabel('QUANTIDADE DE PARTICIPANTES')
-    plt.title('QUANTIDADE DE PARTICIPANTES POR EVENTO')
+    plt.title('TABELA DE PARTICIPANTES')
     plt.yticks(range(0,max(qtdPart)+1))
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=40)
     plt.tight_layout()
     plt.show()
 
