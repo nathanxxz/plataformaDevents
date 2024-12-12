@@ -110,23 +110,19 @@ def inscricao_eventos(nome, gmail, nome_e, events, usersBan):
         resposta = int(resposta) - 1
         if (resposta >= 0 and resposta < len(events) and events[resposta][0].upper() == nome_e.upper()):
             events[resposta].append([nome, gmail])
-            file = open(f'{nome_e}.txt','a')
-            file.write(nome + '=' + gmail + '\n')
-            file.close()
-
-            print('CADASTRO REALIZADO COM SUCESSO')
-
-            print('FOTO DE CONFIRMAÇAO DE USUARIO EM: ')
+            file = open(f'N_E= {nome_e}.txt', 'a')
+            print('FOTO DE CONFIRMAÇAO DE INSCRIÇAO EM: ')
             for cont in range(3, -1, -1):
                 print(cont)
                 sleep(0.5)
-
             webcam = cv2.VideoCapture(0)
             if webcam.isOpened():
                 validacao, frame = webcam.read()
-                cv2.imshow('Foto da Webcam', frame)
-                key = cv2.waitKey(20)
-                cv2.imwrite(f'{nome_e}{nome}{gmail}.png', frame)
+                cv2.imshow('foto da webcam', frame)
+                key = cv2.waitKey(1000)
+                cv2.imwrite(f'E={nome_e} N_P={nome} G_P={gmail}.png', frame)
+            file.write(nome + '=' + gmail + '\n')
+            file.close()
             webcam.release()
             cv2.destroyAllWindows()
             print('---------------------------')
