@@ -1,5 +1,6 @@
 from defprojet import *
 from defprojet2 import *
+from defprojet3 import *
 users = [['rene', 'rene@gmail.com', 'rene1234'], ['samuel', 'samuel@gmail.com', 'samuel1234'], ['jose', 'jose@gmail.com', 'jose1234'],['pedro','pedro@gmail.com','pedro1234'],['pedro2','pedro2@gmail.com','pedro1234']]
 events = [['BatmanEvent','ai','pedro2@gmail.com',['joao pessoa',10],[1,2,2024,18,30],['batman','batman@gmail.com'],['pikachu','pikachu@gmail.com']],['RobinEvent','ai','pedro2@gmail.com',['joao pessoa',20],[1,2,2024, 17, 0],['Jotaro Kujo', 'jojo@gmail.com']],['CoringaEvent','ai','pedro2@gmail.com',['joao pessoa',10],[1,2,2024, 8, 20]],]
 cidadesDisp = ['RIO BRANCO(AC)','MACEIO(AL)','MACAPA(AP)','MANAUS(AM)','SALVADOR(BA)','FORTALEZA(CE)','BRASILIA(DF)','VITORIA(ES)','GOIANIA(GO)','SAO LUIS(MA)','CUIABA(MT)','CAMPO GRANDE(MS)','BELO HORIZONTE(MG)','BELEM(PA)','JOAO PESSOA(PB)','CURITIBA(PR)','RECIFE(PE)','TERESINA(PI)','RIO DE JANEIRO(RJ)','NATAL(RN)','PORTO ALEGRE(RS)','PORTO VELHO(RO)','BOA VISTA(RR)','FLORIANOPOLIS(SC)','SAO PAULO(SP)','ARACAJU(SE)','PALMAS(TO)']
