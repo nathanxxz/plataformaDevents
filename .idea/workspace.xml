@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3877f440-4938-49e7-a5ab-c27e707c5826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defprojet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/defprojet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defprojet2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/defprojet2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defprojet3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/defprojet3/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +148,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.__init__ (2)" />
       </list>
     </recent_temporary>
   </component>

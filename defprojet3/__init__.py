@@ -1,4 +1,3 @@
-
 def cadastrar_eventos(gmail, cidadesDisp, events):
     cdd=''
     dia=''

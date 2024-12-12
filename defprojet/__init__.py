@@ -110,7 +110,7 @@ def inscricao_eventos(nome, gmail, nome_e, events, usersBan):
         resposta = int(resposta) - 1
         if (resposta >= 0 and resposta < len(events) and events[resposta][0].upper() == nome_e.upper()):
             events[resposta].append([nome, gmail])
-            file = open(f'N_E= {nome_e}.txt', 'a')
+            file = open(f'N_E_=_{nome_e}.txt', 'a')
             print('FOTO DE CONFIRMAÇAO DE INSCRIÇAO EM: ')
             for cont in range(3, -1, -1):
                 print(cont)
@@ -120,7 +120,7 @@ def inscricao_eventos(nome, gmail, nome_e, events, usersBan):
                 validacao, frame = webcam.read()
                 cv2.imshow('foto da webcam', frame)
                 key = cv2.waitKey(1000)
-                cv2.imwrite(f'E={nome_e} N_P={nome} G_P={gmail}.png', frame)
+                cv2.imwrite(f'E={nome_e}_N_P={nome}_G_P={gmail}.png', frame)
             file.write(nome + '=' + gmail + '\n')
             file.close()
             webcam.release()

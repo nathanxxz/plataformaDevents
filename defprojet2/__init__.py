@@ -70,7 +70,7 @@ def ad_participante_eventos(gmail,nome_e, events,usersBan):
                     return False
             gmail_do_participante = input('DIGITE O GMAIL D0 USUARIO:').upper()
             events[resposta].append([nome_do_perticipante, gmail_do_participante])
-            file = open(f'{nome_e}.txt','a')
+            file = open(f'N_E_=_{nome_e}.txt', 'a')
             file.write(nome_do_perticipante +'='+ gmail_do_participante + '\n')
             file.close()
             print('CADASTRO REALIZADO COM SUCESSO')
